@@ -6,7 +6,7 @@ A simple and interactive Todo application built using React, Vite, and Context A
 
 Check out the app in action with both light and dark themes
 
-![Todo App Screenshot](src/assets/screen-capture.gif)
+![Todo App Screenshot](src/assets/ScreenCapture.gif)
 
 Want to see it live? Head over to the [Todo App](https://your-vercel-app-url.vercel.app)
 
