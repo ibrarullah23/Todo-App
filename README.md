@@ -8,7 +8,7 @@ Check out the app in action with both light and dark themes
 
 ![Todo App Screenshot](src/assets/ScreenCapture.gif)
 
-Want to see it live? Head over to the [Todo App](https://your-vercel-app-url.vercel.app)
+Want to see it live? Head over to the [Todo App](https://todo-app-i.vercel.app)
 
 ## Features
 
