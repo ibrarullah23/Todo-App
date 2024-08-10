@@ -21,7 +21,7 @@ export const AuthProvider = ({ children }) => {
   const login = (userData) => {
     if (
       user &&
-      userData.username === user?.username &&
+      userData.email === user?.email &&
       userData.password === user?.password
     ) {
       setUser({ ...user, isLoggedin: true });
