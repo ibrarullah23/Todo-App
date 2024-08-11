@@ -12,13 +12,12 @@ function App() {
     <>
       <Routes>
         <Route element={<Layout />} >
-          <Route exact path="/" element={auth?.user?.isLoggedin ? <Home /> : <Navigate to={'/login'} />} />
+          <Route index element={auth?.user?.isLoggedin ? <Home /> : <Navigate to={'/login'} />} />
           <Route element={!auth?.user?.isLoggedin ? <Outlet /> : <Navigate to={'/'} />}>
-
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
           </Route>
-          <Route path="*" element={<Navigate to={"/?redirected=true"} />} />
+          <Route path="*" element={<Navigate to={"/"} />} />
         </Route>
       </Routes>
 

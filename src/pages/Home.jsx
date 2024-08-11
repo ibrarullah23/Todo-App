@@ -4,11 +4,7 @@ import TodoWrapper from '../components/TodoWrapper'
 function Home() {
   return (
     <>
-    
     <TodoWrapper />
-    
-
-
     </>
   )
 }
