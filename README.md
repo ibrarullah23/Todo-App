@@ -27,7 +27,7 @@ Want to see it live? Head over to the [Todo App](https://todo-app-i.vercel.app)
 - **Vite:** A modern build tool that provides fast development and optimized production builds.
 - **Context API:** A React feature for managing global state and passing data through the component tree without props.
 - **Tailwind CSS:** A utility-first CSS framework for designing custom user interfaces.
-- **React Icons:** A library of icons for React applications, used for adding visual elements like edit, delete, and update icons.
+- **React Icons:** A library of icons for React applications, used for adding visual elements like edit, delete, and update icons..
 
 ## Project Structure
 The project directory structure is as follows:
